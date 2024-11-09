@@ -29,7 +29,7 @@ local succ, err = pcall(function()
             if targetPart then
                 for i = 1, 10 do 
                     task.wait(0.05)
-                    firetouchinterest(game.Players.LocalPlayer.Character:FindFirstChild("Left Leg"), getPart(v), 0)
+                    firetouchinterest(game.Players.LocalPlayer.Character:FindFirstChild("Head"), getPart(v), 0)
                     plr.Character.HumanoidRootPart.CFrame = targetPart.CFrame
                 end
             end
